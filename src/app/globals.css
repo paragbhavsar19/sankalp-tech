@@ -7,6 +7,14 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter/static/Inter_18pt-Regular.ttf") format("ttf"),
+    url("fonts/Inter/static/Inter_24pt-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -25,3 +33,17 @@ body {
     text-wrap: balance;
   }
 }
+
+#banner {
+  background-color: #d9f0ff;
+  background-image: linear-gradient(
+      90deg,
+      hsla(0, 0%, 100%, 0.3) 1px,
+      transparent 0
+    ),
+    linear-gradient(180deg, hsla(0, 0%, 100%, 0.3) 1px, transparent 0);
+  background-size: 47px 47px;
+  background-position: -12px 1px;
+}
+
+
