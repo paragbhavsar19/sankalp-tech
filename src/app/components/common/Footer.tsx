@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Logo, Twitter } from "@/app/Images";
+import { Facebook, Linkedin,  Twitter } from "@/app/Images";
 import Link from "next/link";
 import React from "react";
 
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="py-10">
           <div className="footer_middle-wrapper gap-x-12 justify-between flex items-end">
             <Link href="/" className="text-black logo-link text-[20px] font-medium">
-              {/* <Logo /> */}
+              
               Sankalp Tech
             </Link>
             <div className="gap-y-4 ">

@@ -1,8 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { Logo, Downarrow } from "@/app/Images";
+
 import "./header.css"; // Importing the CSS file
+import { Downarrow } from "@/app/Images";
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
       <div className="header-stuff  ">
         <div className="header-box ">
           <Link href="/" className="text-black logo-link text-[20px] font-medium">
-            {/* <Logo /> */}
+            
             Sankalp Tech
           </Link>
           <nav className={`header-main-nav  `}>

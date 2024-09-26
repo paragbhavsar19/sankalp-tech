@@ -278,7 +278,7 @@ export default function Home() {
               src={Client}
               alt="review-star"
               width="375"
-              height="100%"
+              height="300"
               />
             </div>
           </div>
