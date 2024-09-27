@@ -213,7 +213,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="cta">
+      <section id="cta" className="bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5 md:px-0 mt-5 md:mt-10 mb-12 md:mb-24">
           <div className="text-center bg-[#f4f8ff] rounded-xl py-9 md:py-14">
             <p className="text-3xl  md:text-5xl font-medium text-black pb-6">
@@ -273,7 +273,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="max-w-[41.66%]">
+            <div className="max-w-[41.66%] hidden md:block ">
               <Image
               src={Client}
               alt="review-star"
@@ -288,7 +288,7 @@ export default function Home() {
       <section id="portfolio" className="mt-16 md:mt-24 md:mb-16 bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5  ">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-10">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-10 text-black" >
               <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 Our Innovative Software Solutions
               </span>
@@ -782,7 +782,7 @@ export default function Home() {
       <section id="method" className="bg-[#f6f8fb]">
         <div className="w-full md:w-[1320px] mx-auto px-5  pt-10 md:pt-20 pb-20">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-7 tex-black">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-7 tex-black text-black">
               <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 Software Development
               </span>
@@ -927,7 +927,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="cta">
+      <section id="cta" className="bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5 mt-10 mb-12 md:mb-24">
           <div className="text-center bg-[#003366] rounded-xl py-10 md:py-14">
             <p className="text-3xl md:text-5xl font-medium text-white pb-6">
@@ -963,10 +963,10 @@ export default function Home() {
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
-            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Java.svg"   alt="Java" width="20" height="30"  /> Java</li>
-            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/python.svg"   alt="Python" width="24" height="24"  /> Python</li>
-            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/ROR.svg"  alt="ROR" width="24" height="24"  />Ruby</li>
-            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/PHP.svg"  alt="PHP" width="24" height="24"  /> PHP</li></ul>
+            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Java.svg"   alt="Java" width="20" height="30"  /> Java</li>
+            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/python.svg"   alt="Python" width="24" height="24"  /> Python</li>
+            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/ROR.svg"  alt="ROR" width="24" height="24"  />Ruby</li>
+            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/PHP.svg"  alt="PHP" width="24" height="24"  /> PHP</li></ul>
             </div>
           </div>
 
@@ -976,15 +976,15 @@ export default function Home() {
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/React.svg" alt="React" width="24" height="24" /> React.js</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Angular.svg" alt="Angular" width="24" height="24" /> Angular.js  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Vue-JS.svg" alt="Vue" width="24" height="24" /> Vue.js  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Next.js.svg" alt="Next.js" width="24" height="24" /> Next.js  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Django.svg" alt="Django" width="24" height="24" /> Django  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Spring.svg" alt="Spring Boot" width="24" height="24" /> Spring Boot  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/ROR.svg" alt="Ruby on Rails" width="24" height="24" /> Ruby on Rails  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Laravel.svg" alt="Laravel" width="24" height="24" /> Laravel  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Node.js.svg" alt="Node.js" width="24" height="24" /> Node.js  </li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/React.svg" alt="React" width="24" height="24" /> React.js</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Angular.svg" alt="Angular" width="24" height="24" /> Angular.js  </li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Vue-JS.svg" alt="Vue" width="24" height="24" /> Vue.js  </li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Next.js.svg" alt="Next.js" width="24" height="24" /> Next.js  </li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Django.svg" alt="Django" width="24" height="24" /> Django  </li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Spring.svg" alt="Spring Boot" width="24" height="24" /> Spring Boot  </li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/ROR.svg" alt="Ruby on Rails" width="24" height="24" /> Ruby on Rails  </li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Laravel.svg" alt="Laravel" width="24" height="24" /> Laravel  </li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Node.js.svg" alt="Node.js" width="24" height="24" /> Node.js  </li>
             </ul>
             </div>
           </div>
@@ -995,10 +995,10 @@ export default function Home() {
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/MySQL.svg" alt="MySQL" width="24" height="24" /> MySQL</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/MongoDB.svg" alt="MongoDB" width="24" height="24" /> MongoDB</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Postgresql_elephant.svg" alt="PostgreSQL" width="24" height="24" /> PostgreSQL</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/10/Microsoft-SQL-Server.svg" alt="Microsoft SQL Server" width="24" height="24" /> Microsoft SQL Server</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/MySQL.svg" alt="MySQL" width="24" height="24" /> MySQL</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/MongoDB.svg" alt="MongoDB" width="24" height="24" /> MongoDB</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Postgresql_elephant.svg" alt="PostgreSQL" width="24" height="24" /> PostgreSQL</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/10/Microsoft-SQL-Server.svg" alt="Microsoft SQL Server" width="24" height="24" /> Microsoft SQL Server</li>
             </ul>
             </div>
           </div>
@@ -1009,15 +1009,15 @@ export default function Home() {
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Docker.svg" alt="Docker" width="24" height="24" /> Docker</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Kubernetes.svg" alt="Kubernetes" width="24" height="24" /> Kubernetes</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/AWS-Developer-Tools.svg" alt="AWS Developer Tools" width="24" height="24" /> AWS Developer Tools</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Jenkins.svg" alt="Jenkins" width="24" height="24" /> Jenkins</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/azure-devops.svg" alt="Azure DevOps" width="24" height="24" /> Azure DevOps</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Google-Developer-Tools.svg" alt="Google Developer Tools" width="24" height="24" /> Google Developer Tools</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Datadog.svg" alt="Datadog" width="24" height="24" /> Datadog</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Grafana.svg" alt="Grafana" width="24" height="24" /> Grafana</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/elastic-search.svg" alt="Elastic Search" width="24" height="24" /> Elastic Search</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Docker.svg" alt="Docker" width="24" height="24" /> Docker</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Kubernetes.svg" alt="Kubernetes" width="24" height="24" /> Kubernetes</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/AWS-Developer-Tools.svg" alt="AWS Developer Tools" width="24" height="24" /> AWS Developer Tools</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Jenkins.svg" alt="Jenkins" width="24" height="24" /> Jenkins</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/azure-devops.svg" alt="Azure DevOps" width="24" height="24" /> Azure DevOps</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Google-Developer-Tools.svg" alt="Google Developer Tools" width="24" height="24" /> Google Developer Tools</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Datadog.svg" alt="Datadog" width="24" height="24" /> Datadog</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Grafana.svg" alt="Grafana" width="24" height="24" /> Grafana</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/elastic-search.svg" alt="Elastic Search" width="24" height="24" /> Elastic Search</li>
             </ul>
             </div>
           </div>
@@ -1028,9 +1028,9 @@ export default function Home() {
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/AWS.svg" alt="AWS" width="24" height="24" /> AWS</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Microsoft-Azure.svg" alt="Azure" width="24" height="24" /> Azure</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Google-Cloud.svg" alt="Google Cloud" width="24" height="24" /> Google Cloud</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/AWS.svg" alt="AWS" width="24" height="24" /> AWS</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Microsoft-Azure.svg" alt="Azure" width="24" height="24" /> Azure</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Google-Cloud.svg" alt="Google Cloud" width="24" height="24" /> Google Cloud</li>
             </ul>
             </div>
           </div>
@@ -1041,8 +1041,8 @@ export default function Home() {
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Git.svg" alt="Git" width="24" height="24" /> Git</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/SVN.svg" alt="SVN" width="24" height="24" /> SVN</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Git.svg" alt="Git" width="24" height="24" /> Git</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/SVN.svg" alt="SVN" width="24" height="24" /> SVN</li>
             </ul>
             </div>
           </div>
@@ -1053,9 +1053,9 @@ export default function Home() {
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/IntelliJ-IDEA.svg" alt="IntelliJ IDEA" width="24" height="24" /> IntelliJ IDEA  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Visual-Studio-Code.svg" alt="Visual Studio Code" width="24" height="24" /> Visual Studio Code</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/PyCharm-1.svg" alt="PyCharm" width="24" height="24" /> PyCharm</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/IntelliJ-IDEA.svg" alt="IntelliJ IDEA" width="24" height="24" /> IntelliJ IDEA  </li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Visual-Studio-Code.svg" alt="Visual Studio Code" width="24" height="24" /> Visual Studio Code</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/PyCharm-1.svg" alt="PyCharm" width="24" height="24" /> PyCharm</li>
             </ul>
             </div>
           </div>
@@ -1067,10 +1067,10 @@ export default function Home() {
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/Selenium.svg" alt="Selenium" width="24" height="24" /> Selenium</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/JUnit.svg" alt="JUnit" width="24" height="24" /> JUnit</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/jest.svg" alt="Jest" width="24" height="24" /> Jest</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/Mocha.svg" alt="Mocha" width="24" height="24" /> Mocha</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/Selenium.svg" alt="Selenium" width="24" height="24" /> Selenium</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/JUnit.svg" alt="JUnit" width="24" height="24" /> JUnit</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/jest.svg" alt="Jest" width="24" height="24" /> Jest</li>
+              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/Mocha.svg" alt="Mocha" width="24" height="24" /> Mocha</li>
             </ul>
             </div>
           </div>
