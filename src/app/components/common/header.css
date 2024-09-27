@@ -49,7 +49,7 @@
 }
 
 .main-ul .contact-menu {
-  @apply   z-[900];
+  @apply   z-[900] !block !text-center;
 }
 
 .main-ul .contact-menu a {
@@ -69,7 +69,7 @@
 }
 
 .main-header.mobile-menu-open .nav-stuff {
-  @apply opacity-100 w-full translate-x-0 translate-y-0 transition-opacity duration-[3s] ease-linear delay-[5s] text-center h-[55dvh] bg-[white] flex-col gap-x-5 rounded-[1.25rem];
+  @apply opacity-100 w-full translate-x-0 translate-y-0 transition-opacity duration-[3s] ease-linear delay-[5s] text-center h-[65dvh] bg-[white] flex-col gap-x-5 rounded-[1.25rem];
 }
 
 .main-header.mobile-menu-open .nav-stuff ul {

@@ -1,5 +1,45 @@
 import Image from "next/image";
-import Client from "@/app/Images/client.webp"
+import Client from "@/app/Images/client.webp";
+import {
+  AWS,
+  Angular,
+  AWSdev,
+  Azure,
+  AzureDev,
+  Datadog,
+  Django,
+  Docker,
+  ElasticSearch,
+  GoogleCloud,
+  GoogleDev,
+  Grafana,
+  Java,
+  Jenkins,
+  Kubernetes,
+  Laravel,
+  Microsoftserver,
+  Mongodb,
+  Mysql,
+  Nextjs,
+  Nodejs,
+  Php,
+  Postgresql,
+  Python,
+  Reactjs,
+  Ruby,
+  RubyRails,
+  Spring,
+  Vue,
+  Git,
+  IntelliJ,
+  Mocha,
+  Jest,
+  SVN,
+  VScode,
+  Selenium,
+  PyCharm,
+  JUnit
+} from "@/app/Images";
 
 export default function Home() {
   return (
@@ -258,8 +298,10 @@ export default function Home() {
               </p>
               <div className="flex items-center flex-row">
                 <div className="userfedd-detbox justify-content-between">
-                  <div className="flex items-center  gap-2 text-black" >
-                    <p className="text-lg font-medium text-black">Jeffrey Hall</p>
+                  <div className="flex items-center  gap-2 text-black">
+                    <p className="text-lg font-medium text-black">
+                      Jeffrey Hall
+                    </p>
                     <Image
                       src="https://www.spaceotechnologies.com/wp-content/uploads/2023/06/Rating.svg"
                       alt="review-star"
@@ -274,12 +316,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-[41.66%] hidden md:block ">
-              <Image
-              src={Client}
-              alt="review-star"
-              width="375"
-              height="300"
-              />
+              <Image src={Client} alt="review-star" width="375" height="300" />
             </div>
           </div>
         </div>
@@ -288,7 +325,7 @@ export default function Home() {
       <section id="portfolio" className="mt-16 md:mt-24 md:mb-16 bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5  ">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-10 text-black" >
+            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-10 text-black">
               <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 Our Innovative Software Solutions
               </span>
@@ -789,7 +826,7 @@ export default function Home() {
               Methodologies We Use
             </h2>
             <p className="text-center mb-10 text-black">
-              We use these methodologies to ensure optimal software <br/>
+              We use these methodologies to ensure optimal software <br />
               development tailored to your requirements.
             </p>
           </div>
@@ -875,7 +912,9 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6 ">
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">01</p>
-              <h3 className="text-xl font-medium py-3 text-black">Requirement Analysis</h3>
+              <h3 className="text-xl font-medium py-3 text-black">
+                Requirement Analysis
+              </h3>
               <p className="text-[15px] text-gray-700">
                 Understand your needs, objectives, and the challenges the
                 software aims to address.
@@ -883,7 +922,9 @@ export default function Home() {
             </div>
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">02</p>
-              <h3 className="text-xl font-medium py-3 text-black">Planning & Design</h3>
+              <h3 className="text-xl font-medium py-3 text-black">
+                Planning & Design
+              </h3>
               <p className="text-[15px] text-gray-700">
                 Draft a detailed plan and create a blueprint, covering
                 architecture, user interface, and user experience.
@@ -891,7 +932,9 @@ export default function Home() {
             </div>
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">03</p>
-              <h3 className="text-xl font-medium py-3 text-black">Development</h3>
+              <h3 className="text-xl font-medium py-3 text-black">
+                Development
+              </h3>
               <p className="text-[15px] text-gray-700">
                 Code software, ensuring each module aligns with the design and
                 functions seamlessly.
@@ -907,7 +950,9 @@ export default function Home() {
             </div>
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">05</p>
-              <h3 className="text-xl font-medium py-3 text-black">Deployment</h3>
+              <h3 className="text-xl font-medium py-3 text-black">
+                Deployment
+              </h3>
               <p className="text-[15px] text-gray-700">
                 Launch the software in a live environment, making it accessible
                 to end-users.
@@ -959,14 +1004,27 @@ export default function Home() {
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className=" w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium text-black">Programming <br/>Languages</p>
+              <p className="text-lg font-medium text-black">
+                Programming <br />
+                Languages
+              </p>
             </div>
             <div className="w-full md:w-4/5">
-            <ul className="flex flex-wrap mb-0">
-            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Java.svg"   alt="Java" width="20" height="30"  /> Java</li>
-            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/python.svg"   alt="Python" width="24" height="24"  /> Python</li>
-            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/ROR.svg"  alt="ROR" width="24" height="24"  />Ruby</li>
-            <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3"  src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/PHP.svg"  alt="PHP" width="24" height="24"  /> PHP</li></ul>
+              <ul className="flex flex-wrap mb-0">
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Java /> Java
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Python /> Python
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Ruby />
+                  Ruby
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Php /> PHP
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -975,17 +1033,44 @@ export default function Home() {
               <p className="text-lg font-medium text-black">Frameworks</p>
             </div>
             <div className="w-full md:w-4/5">
-            <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/React.svg" alt="React" width="24" height="24" /> React.js</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Angular.svg" alt="Angular" width="24" height="24" /> Angular.js  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Vue-JS.svg" alt="Vue" width="24" height="24" /> Vue.js  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Next.js.svg" alt="Next.js" width="24" height="24" /> Next.js  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Django.svg" alt="Django" width="24" height="24" /> Django  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Spring.svg" alt="Spring Boot" width="24" height="24" /> Spring Boot  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/ROR.svg" alt="Ruby on Rails" width="24" height="24" /> Ruby on Rails  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Laravel.svg" alt="Laravel" width="24" height="24" /> Laravel  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Node.js.svg" alt="Node.js" width="24" height="24" /> Node.js  </li>
-            </ul>
+              <ul className="flex flex-wrap mb-0">
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Reactjs />
+                  React.js
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Angular />
+                  Angular.Js
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Vue/>
+                  Vue.js{" "}
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Nextjs />
+                  Next.js{" "}
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Django />
+                  Django{" "}
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Spring />
+                  Spring Boot{" "}
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <RubyRails />
+                  Ruby on Rails{" "}
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Laravel />
+                  Laravel{" "}
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Nodejs />
+                  Node.js{" "}
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -994,12 +1079,20 @@ export default function Home() {
               <p className="text-lg font-medium text-black">Databases</p>
             </div>
             <div className="w-full md:w-4/5">
-            <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/MySQL.svg" alt="MySQL" width="24" height="24" /> MySQL</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/MongoDB.svg" alt="MongoDB" width="24" height="24" /> MongoDB</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Postgresql_elephant.svg" alt="PostgreSQL" width="24" height="24" /> PostgreSQL</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/10/Microsoft-SQL-Server.svg" alt="Microsoft SQL Server" width="24" height="24" /> Microsoft SQL Server</li>
-            </ul>
+              <ul className="flex flex-wrap mb-0">
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Mysql /> MySQL
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Mongodb /> MongoDB
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Postgresql /> PostgreSQL
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Microsoftserver /> Microsoft SQL Server
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -1008,17 +1101,35 @@ export default function Home() {
               <p className="text-lg font-medium text-black">DevOps</p>
             </div>
             <div className="w-full md:w-4/5">
-            <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Docker.svg" alt="Docker" width="24" height="24" /> Docker</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Kubernetes.svg" alt="Kubernetes" width="24" height="24" /> Kubernetes</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/AWS-Developer-Tools.svg" alt="AWS Developer Tools" width="24" height="24" /> AWS Developer Tools</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Jenkins.svg" alt="Jenkins" width="24" height="24" /> Jenkins</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/azure-devops.svg" alt="Azure DevOps" width="24" height="24" /> Azure DevOps</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Google-Developer-Tools.svg" alt="Google Developer Tools" width="24" height="24" /> Google Developer Tools</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Datadog.svg" alt="Datadog" width="24" height="24" /> Datadog</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Grafana.svg" alt="Grafana" width="24" height="24" /> Grafana</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/elastic-search.svg" alt="Elastic Search" width="24" height="24" /> Elastic Search</li>
-            </ul>
+              <ul className="flex flex-wrap mb-0">
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Docker /> Docker
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Kubernetes /> Kubernetes
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <AWSdev /> AWS Developer Tools
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Jenkins /> Jenkins
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <AzureDev /> Azure DevOps
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <GoogleDev /> Google Developer Tools
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Datadog /> Datadog
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Grafana /> Grafana
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <ElasticSearch /> Elastic Search
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -1027,11 +1138,20 @@ export default function Home() {
               <p className="text-lg font-medium text-black">Cloud Platforms</p>
             </div>
             <div className="w-full md:w-4/5">
-            <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/AWS.svg" alt="AWS" width="24" height="24" /> AWS</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Microsoft-Azure.svg" alt="Azure" width="24" height="24" /> Azure</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Google-Cloud.svg" alt="Google Cloud" width="24" height="24" /> Google Cloud</li>
-            </ul>
+              <ul className="flex flex-wrap mb-0">
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <AWS />
+                  AWS
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Azure />
+                  Azure
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <GoogleCloud />
+                  Google Cloud
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -1040,10 +1160,14 @@ export default function Home() {
               <p className="text-lg font-medium text-black">Version Control</p>
             </div>
             <div className="w-full md:w-4/5">
-            <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Git.svg" alt="Git" width="24" height="24" /> Git</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/SVN.svg" alt="SVN" width="24" height="24" /> SVN</li>
-            </ul>
+              <ul className="flex flex-wrap mb-0">
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Git /> Git
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <SVN /> SVN
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -1052,31 +1176,46 @@ export default function Home() {
               <p className="text-lg font-medium text-black">IDEs</p>
             </div>
             <div className="w-full md:w-4/5">
-            <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/IntelliJ-IDEA.svg" alt="IntelliJ IDEA" width="24" height="24" /> IntelliJ IDEA  </li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/Visual-Studio-Code.svg" alt="Visual Studio Code" width="24" height="24" /> Visual Studio Code</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2024/02/PyCharm-1.svg" alt="PyCharm" width="24" height="24" /> PyCharm</li>
-            </ul>
+              <ul className="flex flex-wrap mb-0">
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <IntelliJ /> IntelliJ IDEA
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <VScode /> Visual Studio Code
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <PyCharm /> PyCharm
+                </li>
+              </ul>
             </div>
           </div>
-
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className="w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium text-black">Testing <br/>Frameworks</p>
+              <p className="text-lg font-medium text-black">
+                Testing <br />
+                Frameworks
+              </p>
             </div>
             <div className="w-full md:w-4/5">
-            <ul className="flex flex-wrap mb-0">
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/Selenium.svg" alt="Selenium" width="24" height="24" /> Selenium</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/JUnit.svg" alt="JUnit" width="24" height="24" /> JUnit</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/jest.svg" alt="Jest" width="24" height="24" /> Jest</li>
-              <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black"><Image className="mr-3" src="https://www.spaceotechnologies.com/wp-content/uploads/2023/09/Mocha.svg" alt="Mocha" width="24" height="24" /> Mocha</li>
-            </ul>
+              <ul className="flex flex-wrap mb-0">
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Selenium /> Selenium
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <JUnit /> JUnit
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Jest /> Jest
+                </li>
+                <li className="h-10 text-base flex items-center shadow-[0_0_10px_rgba(0,0,0,0.05)] mt-0 mb-[15px] mx-[5px] px-4 py-0 rounded-[30px] bg-white text-black gap-2.5">
+                  <Mocha /> Mocha
+                </li>
+              </ul>
             </div>
           </div>
-
         </div>
-      </section>  
+      </section>
     </>
   );
 }
