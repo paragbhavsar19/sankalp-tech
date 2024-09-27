@@ -36,11 +36,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="service">
+      <section id="service" className="bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5 md:px-0 py-12 md:py-24">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-10">
-              <span className="uppercase font-normal block text-base pb-2 tracking-[1px]">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-10 text-black">
+              <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 Custom Software Solutions
               </span>
               Services
@@ -55,7 +55,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1.5">
+              <h3 className="text-lg font-medium py-1.5 text-black">
                 Tailored Software Solutions
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -73,7 +73,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 User Experience Design
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -91,7 +91,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 Strategic Software Consulting
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -109,7 +109,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 Scalable Enterprise Solutions
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -127,7 +127,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 Mobile Application Development
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -145,7 +145,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 Innovative Web Solutions
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -163,7 +163,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 Legacy Software Transformation
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -181,7 +181,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 Seamless Software Integration
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -199,7 +199,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 Expert Development Team
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -232,11 +232,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="clientlove">
+      <section id="clientlove" className="bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5  ">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-6 md:pb-16">
-              <span className="uppercase font-normal block text-base pb-2 tracking-[1px]">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-6 md:pb-16 text-black">
+              <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 Clients Love
               </span>
               Your Compnay Technologies
@@ -258,8 +258,8 @@ export default function Home() {
               </p>
               <div className="flex items-center flex-row">
                 <div className="userfedd-detbox justify-content-between">
-                  <div className="flex items-center  gap-2">
-                    <p className="text-lg font-medium">Jeffrey Hall</p>
+                  <div className="flex items-center  gap-2 text-black" >
+                    <p className="text-lg font-medium text-black">Jeffrey Hall</p>
                     <Image
                       src="https://www.spaceotechnologies.com/wp-content/uploads/2023/06/Rating.svg"
                       alt="review-star"
@@ -285,11 +285,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="portfolio" className="mt-16 md:mt-24 md:mb-16">
+      <section id="portfolio" className="mt-16 md:mt-24 md:mb-16 bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5  ">
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold text-center pb-10">
-              <span className="uppercase font-normal block text-base pb-2 tracking-[1px]">
+              <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 Our Innovative Software Solutions
               </span>
               Portfolio
@@ -306,7 +306,7 @@ export default function Home() {
               />
             </div>
             <div className="pr-0 md:pr-12 pt-4 md:pt-0">
-              <h3 className="text-xl font-medium mb-3 md:mb-6">
+              <h3 className="text-xl font-medium mb-3 md:mb-6 text-black">
                 Developed On-demand Food Delivery App That Secured
               </h3>
               <p className="text-base text-black">
@@ -339,7 +339,7 @@ export default function Home() {
               />
             </div>
             <div className="pt-4 md:pt-0">
-              <h3 className="text-xl font-medium mb-3 md:mb-6">
+              <h3 className="text-xl font-medium mb-3 md:mb-6 text-black">
                 Developed On-demand Food Delivery App That Secured
               </h3>
               <p className="text-base text-black">
@@ -363,13 +363,13 @@ export default function Home() {
           <div className="block md:flex items-center">
             <div className="w-full md:w-1/3 pb-6 md:pb-0">
               <div className="text-center md:text-left ">
-                <h2 className="text-4xl font-semibold  pb-6 ">
-                  <span className="uppercase font-normal block text-base pb-2 tracking-[1px]">
+                <h2 className="text-4xl font-semibold  pb-6 text-black">
+                  <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                     Software Solutions
                   </span>
                   We Develop
                 </h2>
-                <p>
+                <p className="text-black">
                   Our experienced software developers build custom solutions,
                   cloud software, & websites to help you stay ahead. Explore the
                   list of software solutions that we develop.
@@ -386,7 +386,7 @@ export default function Home() {
                     width={48}
                     height={24}
                   />
-                  <p className="text-base font-medium">
+                  <p className="text-base font-medium text-black">
                     Enterprise resource planning software
                   </p>
                 </div>
@@ -397,7 +397,7 @@ export default function Home() {
                     width={48}
                     height={24}
                   />
-                  <p className="text-base font-medium">
+                  <p className="text-base font-medium text-black">
                     Customer relationship management software
                   </p>
                 </div>
@@ -408,7 +408,7 @@ export default function Home() {
                     width={48}
                     height={24}
                   />
-                  <p className="text-base font-medium">
+                  <p className="text-base font-medium text-black">
                     Human resource management software
                   </p>
                 </div>
@@ -419,7 +419,7 @@ export default function Home() {
                     width={48}
                     height={24}
                   />
-                  <p className="text-base font-medium">
+                  <p className="text-base font-medium text-black">
                     Content management system
                   </p>
                 </div>
@@ -430,7 +430,7 @@ export default function Home() {
                     width={48}
                     height={24}
                   />
-                  <p className="text-base font-medium">
+                  <p className="text-base font-medium text-black">
                     Learning management software
                   </p>
                 </div>
@@ -441,7 +441,7 @@ export default function Home() {
                     width={48}
                     height={24}
                   />
-                  <p className="text-base font-medium">
+                  <p className="text-base font-medium text-black">
                     Fleet management software
                   </p>
                 </div>
@@ -452,7 +452,7 @@ export default function Home() {
                     width={48}
                     height={24}
                   />
-                  <p className="text-base font-medium">
+                  <p className="text-base font-medium text-black">
                     Software as a Service Solution
                   </p>
                 </div>
@@ -463,7 +463,7 @@ export default function Home() {
                     width={48}
                     height={24}
                   />
-                  <p className="text-base font-medium">
+                  <p className="text-base font-medium text-black">
                     Supply chain management software
                   </p>
                 </div>
@@ -474,7 +474,7 @@ export default function Home() {
                     width={48}
                     height={24}
                   />
-                  <p className="text-base font-medium">
+                  <p className="text-base font-medium text-black">
                     Project management software
                   </p>
                 </div>
@@ -484,11 +484,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="service">
+      <section id="service" className="bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5 pt-5 md:pt-14 md:pb-16">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-8 md:pb-16">
-              <span className="uppercase font-normal block text-base pb-2 tracking-[1px]">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-8 md:pb-16 text-black">
+              <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 Why Choose
               </span>
               Your Compnay Technologies for Software Development?
@@ -503,7 +503,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1.5">
+              <h3 className="text-lg font-medium py-1 text-black">
                 300+ Software Projects Developed
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -519,7 +519,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 1200+ Clients Worldwide
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -536,7 +536,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 140+ In-house Software Developers
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -553,7 +553,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 14+ Years of Experience
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -570,7 +570,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 98% Success Score on Upwork
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -587,7 +587,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">
+              <h3 className="text-lg font-medium py-1 text-black">
                 100% Project Transparency
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -600,16 +600,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="industries" className="mb-0 md:mb-8 py-14 ">
+      <section id="industries" className="mb-0 md:mb-8 py-14  bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5 ">
           <div className="block md:flex gap-10">
             <div className="w-full md:w-1/3 bg-[#f6f8fb] min-h-[calc(100%_-_24px)] flex flex-col justify-center p-[34px] rounded-2xl">
               <div>
-                <h2 className="text-3xl md:text-4xl font-semibold  pb-6">
+                <h2 className="text-3xl md:text-4xl font-semibold  pb-6 text-black">
                   Industries We <br />
                   Serve
                 </h2>
-                <p>
+                <p className="text-black">
                   Whether you’re in healthcare, retail, or any field in between,
                   we deliver solutions that cater to the specific challenges and
                   demands of your business.
@@ -626,7 +626,7 @@ export default function Home() {
                     height={24}
                     className="mx-auto"
                   />
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Healthcare
                   </p>
                 </div>
@@ -639,7 +639,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Retail
                   </p>
                 </div>
@@ -652,7 +652,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Finance
                   </p>
                 </div>
@@ -665,7 +665,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Education
                   </p>
                 </div>
@@ -678,7 +678,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Real-estate
                   </p>
                 </div>
@@ -691,7 +691,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Manufacturing
                   </p>
                 </div>
@@ -704,7 +704,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Transportataion
                   </p>
                 </div>
@@ -717,7 +717,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Enterainment
                   </p>
                 </div>
@@ -730,7 +730,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Hospitality
                   </p>
                 </div>
@@ -743,7 +743,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Travel
                   </p>
                 </div>
@@ -756,7 +756,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Legal
                   </p>
                 </div>
@@ -769,7 +769,7 @@ export default function Home() {
                     className="mx-auto"
                   />
 
-                  <p className="text-base font-medium pt-3 text-gray-800">
+                  <p className="text-base font-medium  pt-3 text-gray-800">
                     Contruction
                   </p>
                 </div>
@@ -782,13 +782,13 @@ export default function Home() {
       <section id="method" className="bg-[#f6f8fb]">
         <div className="w-full md:w-[1320px] mx-auto px-5  pt-10 md:pt-20 pb-20">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-7">
-              <span className="uppercase font-normal block text-base pb-2 tracking-[1px]">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-7 tex-black">
+              <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 Software Development
               </span>
               Methodologies We Use
             </h2>
-            <p className="text-center mb-10">
+            <p className="text-center mb-10 text-black">
               We use these methodologies to ensure optimal software <br/>
               development tailored to your requirements.
             </p>
@@ -802,7 +802,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1.5">Agile</h3>
+              <h3 className="text-lg font-medium py-1.5 text-black">Agile</h3>
               <p className="text-[15px] text-gray-700">
                 This flexible development approach adapts to changes as your
                 project evolves. With Agile, you’ll experience rapid delivery of
@@ -818,7 +818,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">DevOps</h3>
+              <h3 className="text-lg font-medium py-1 text-black">DevOps</h3>
               <p className="text-[15px] text-gray-700">
                 DevOps practice is designed to enhance collaboration and
                 efficiency throughout your project’s lifecycle. You benefit from
@@ -834,7 +834,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">Scrum</h3>
+              <h3 className="text-lg font-medium py-1 text-black">Scrum</h3>
               <p className="text-[15px] text-gray-700">
                 Scrum methodology is used for managing complex software
                 development through iterative progress. With Scrum, you’ll
@@ -850,7 +850,7 @@ export default function Home() {
                 height={50}
                 className="mx-auto mb-5"
               />
-              <h3 className="text-lg font-medium py-1">Waterfall</h3>
+              <h3 className="text-lg font-medium py-1 text-black">Waterfall</h3>
               <p className="text-[15px] text-gray-700">
                 Every stage of your project is meticulously planned and
                 executed, providing clarity and precision. With Waterfall, each
@@ -862,11 +862,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="process">
+      <section id="process" className="bg-white">
         <div className="w-full md:w-[1320px] mx-auto px-5 pt-10 md:pt-20 pb-8 md:pb-16">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-10">
-              <span className="uppercase font-normal block text-base pb-2 tracking-[1px]">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-10 text-black">
+              <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 Our Software Development
               </span>
               Process
@@ -875,7 +875,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6 ">
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">01</p>
-              <h3 className="text-xl font-medium py-3">Requirement Analysis</h3>
+              <h3 className="text-xl font-medium py-3 text-black">Requirement Analysis</h3>
               <p className="text-[15px] text-gray-700">
                 Understand your needs, objectives, and the challenges the
                 software aims to address.
@@ -883,7 +883,7 @@ export default function Home() {
             </div>
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">02</p>
-              <h3 className="text-xl font-medium py-3">Planning & Design</h3>
+              <h3 className="text-xl font-medium py-3 text-black">Planning & Design</h3>
               <p className="text-[15px] text-gray-700">
                 Draft a detailed plan and create a blueprint, covering
                 architecture, user interface, and user experience.
@@ -891,7 +891,7 @@ export default function Home() {
             </div>
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">03</p>
-              <h3 className="text-xl font-medium py-3">Development</h3>
+              <h3 className="text-xl font-medium py-3 text-black">Development</h3>
               <p className="text-[15px] text-gray-700">
                 Code software, ensuring each module aligns with the design and
                 functions seamlessly.
@@ -899,7 +899,7 @@ export default function Home() {
             </div>
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">04</p>
-              <h3 className="text-xl font-medium py-3">Testing</h3>
+              <h3 className="text-xl font-medium py-3 text-black">Testing</h3>
               <p className="text-[15px] text-gray-700">
                 Rigorously evaluate the software for bugs, performance issues,
                 and reliability.
@@ -907,7 +907,7 @@ export default function Home() {
             </div>
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">05</p>
-              <h3 className="text-xl font-medium py-3">Deployment</h3>
+              <h3 className="text-xl font-medium py-3 text-black">Deployment</h3>
               <p className="text-[15px] text-gray-700">
                 Launch the software in a live environment, making it accessible
                 to end-users.
@@ -915,7 +915,7 @@ export default function Home() {
             </div>
             <div className=" border p-8 rounded-xl border-solid border-[#EAF3FF] shadow-[0px_4px_16px_0px_rgba(0,0,0,0.06)] ">
               <p className="text-5xl text-gray-300 font-semibold pb-1">06</p>
-              <h3 className="text-xl font-medium py-3">
+              <h3 className="text-xl font-medium py-3 text-black">
                 Maintenance & Support
               </h3>
               <p className="text-[15px] text-gray-700">
@@ -949,8 +949,8 @@ export default function Home() {
       <section id="technology" className="bg-[#f6f8fb]">
         <div className="w-full md:w-[1320px] mx-auto px-5 pt-20 pb-0 md:pb-20">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-7">
-              <span className="uppercase font-normal block text-base pb-2 tracking-[1px]">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center pb-7 text-black">
+              <span className="uppercase font-normal block text-base pb-2 tracking-[1px] text-black">
                 SOFTWARE DEVELOPMENT
               </span>
               Technology Stack
@@ -959,7 +959,7 @@ export default function Home() {
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className=" w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium">Programming <br/>Languages</p>
+              <p className="text-lg font-medium text-black">Programming <br/>Languages</p>
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
@@ -972,7 +972,7 @@ export default function Home() {
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className="w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium">Frameworks</p>
+              <p className="text-lg font-medium text-black">Frameworks</p>
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
@@ -991,7 +991,7 @@ export default function Home() {
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className="w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium">Databases</p>
+              <p className="text-lg font-medium text-black">Databases</p>
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
@@ -1005,7 +1005,7 @@ export default function Home() {
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className="w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium">DevOps</p>
+              <p className="text-lg font-medium text-black">DevOps</p>
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
@@ -1024,7 +1024,7 @@ export default function Home() {
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className="w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium">Cloud Platforms</p>
+              <p className="text-lg font-medium text-black">Cloud Platforms</p>
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
@@ -1037,7 +1037,7 @@ export default function Home() {
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className="w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium">Version Control</p>
+              <p className="text-lg font-medium text-black">Version Control</p>
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
@@ -1049,7 +1049,7 @@ export default function Home() {
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className="w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium">IDEs</p>
+              <p className="text-lg font-medium text-black">IDEs</p>
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
@@ -1063,7 +1063,7 @@ export default function Home() {
 
           <div className="block md:flex items-start mt-0 mb-[30px] mx-0 pb-[15px] border-b-[#e7e7e7] border-b border-solid">
             <div className="w-1/5 mb-4 md:mb-0">
-              <p className="text-lg font-medium">Testing <br/>Frameworks</p>
+              <p className="text-lg font-medium text-black">Testing <br/>Frameworks</p>
             </div>
             <div className="w-full md:w-4/5">
             <ul className="flex flex-wrap mb-0">
