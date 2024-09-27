@@ -16,10 +16,10 @@ export default function Home() {
         <div className="w-full md:w-[1320px] mx-auto px-5 md:px-0">
           <div className="grid md:grid-cols-2 gap-3 pt-32 md:pt-44 pb-20">
             <div>
-              <h1 className="text-[35px] md:text-[54px] font-bold md:leading-[64px] leading-normal pb-6">
+              <h1 className="text-[35px] md:text-[54px] font-bold md:leading-[64px] leading-normal pb-6 text-black">
                 Top Custom Software Development Company
               </h1>
-              <p className="text-[18px] pr-22">
+              <p className="text-[18px] pr-22 text-black">
                 As a trusted custom software development company, we have
                 completed over 50+ successful projects across various
                 industries. Our startup delivers innovative, scalable software
